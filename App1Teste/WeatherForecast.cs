@@ -6,7 +6,7 @@ namespace App1Teste
 
         public int TemperatureC { get; set; }
 
-        public int TemperatureF => 35 + (int)(TemperatureC / 0.555);
+        public int TemperatureF => 82 + (int)(TemperatureC / 0.555);
 
         public string? Summary { get; set; }
     }
